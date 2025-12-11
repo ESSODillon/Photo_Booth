@@ -27,8 +27,8 @@ sudo apt install -y gphoto2
 1. In **admin PowerShell** (Windows):
 
 ```powershell
-usbipd wsl list          # find the busid for the Canon 80D
-usbipd wsl attach --busid <BUSID> --distribution Ubuntu
+usbipd list          # find the busid for the Canon 80D
+usbipd attach --wsl --busid <BUS_ID>
 ```
 
 If attach fails, make sure the camera is on and not claimed by other software (e.g., EOS Utility).
