@@ -1,3 +1,9 @@
+node_modules
+dist
+build
+.env
+server/.env
+photos
 # Logs
 logs
 *.log
